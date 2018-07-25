@@ -19,6 +19,6 @@ from django.urls import path
 from cmdb import views
 
 urlpatterns = [
-    # path('admin/', admin.site.urls),
+    path('admin/', admin.site.urls),
     path('index/', views.index)
 ]
